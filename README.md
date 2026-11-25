@@ -43,7 +43,7 @@ iteration 4: 선정 모델 저장, iteration 3과 비교. iteration 2에서 저�
 1. 탐색 대상 공간에서 uniform하게 5개 점을 랜덤추출한다.  
 2. 부터는 동적 격자탐색의 방법과 같다. 단, 2-1에서 최상위 모델만 선택하는 조건에 상위 2개 지점이 너무 가까울 때를 추가한다.  
 
-Bayesian Optimization은 널리 사용하는 방법을 따른다. 획득함수는 ```qLogNEI```를 사용한다.  
+Bayesian Optimization은 GP 기반 방법을 따른다. 획득함수는 ```qLogNEI```를 사용한다.  
 
 ---
 
