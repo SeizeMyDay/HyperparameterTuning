@@ -88,3 +88,8 @@ result = train_candidate(
 score = result.val_accuracy       # 최대화할 값, 0~1
 save_result(result, "runs/candidate_001")
 ```
+
+---
+
+ChatGPT가 예상한 실행 소요시간이 13시간 가량 걸려 아직은 돌릴 엄두를 내지 못했다..  
+조만간 구글코랩으로 돌려 볼 생각이다.
