@@ -4,6 +4,7 @@ Comparing the performance between dynamic_grid_search, dynamic_random_search, an
 <br>
 <br>
 ---
+
 머신러닝에서 하이퍼파라미터를 최적화할 때 일반적으로 격자탐색보다 임의탐색이 더 효율적이라고 한다.  
 
 그러나 다음 방법대로 하면 격자탐색이 더 나을 수도 있지 않나 하는 의문이 들었다.  
