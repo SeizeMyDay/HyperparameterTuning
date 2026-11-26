@@ -68,6 +68,8 @@ Bayesian Optimization은 Gaussian Process 기반 방법을 따른다. 획득함�
 ```
 훈련 및 평가 데이터는 ```FashionMNIST```이고, train 50,000 / validation 10,000 으로 분할하여 사용한다.  
 
+[base_model.py](https://github.com/SeizeMyDay/HyperparameterTuning/blob/main/base_model.py)에 구현하였다.  
+
 이후 탐색 코드에서는 다음 코드로 후보 하나를 평가한다.  
 ```
 from base_model import (
